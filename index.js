@@ -3,6 +3,7 @@ var name = 'hello';
 // TODO write your code here...
 name = name.toUpperCase();
 
+console.log(name);
 
 // Complete the following procedure, capitalizing all the words in the variable sentence and printing: 'Good Afternoon, Mr Mike.'
 var sentence = 'good afternoon, mr mike.';
@@ -21,6 +22,8 @@ for (let x = 1; x < sentence.length; x++) {
 	}
 }
 
+console.log(sentence);
+
 // Complete the following procedure to extract the amount of money variable, output: 20.
 var money = '￥20';
 //TODO write your code here...
@@ -33,3 +36,5 @@ for (let x = 0; x < money.length; x++) {
 }
 
 money = parsed_money;
+
+console.log(money);
